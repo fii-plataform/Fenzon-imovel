@@ -25,7 +25,7 @@ export default function AboutSection() {
               {/* Main Image in Elegant Card */}
               <div className="relative rounded-3xl overflow-hidden border border-slate-700/80 shadow-2xl bg-slate-900 aspect-[4/5]">
                 <Image
-                  src="/images/predio-fachada-esquina.jpg"
+                  src={PROPERTY_DATA.aboutImage}
                   alt="Edifício de 3 Pavimentos na Rua Félix Araújo, Boqueirão"
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"

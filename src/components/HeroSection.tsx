@@ -26,7 +26,7 @@ export default function HeroSection() {
       {/* Background Image with Dark & Elegant Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/predio-fachada-comercial.jpg"
+          src={PROPERTY_DATA.heroImage}
           alt="Fachada do Prédio Comercial e Residencial em Boqueirão - PB"
           fill
           priority

@@ -30,9 +30,9 @@ export const metadata: Metadata = {
       "Edifício com 3 pavimentos na zona mais valorizada de Boqueirão - PB. Ponto comercial ativo, apartamentos e alto potencial de rendimento. Venda direta.",
     images: [
       {
-        url: "/images/predio-fachada-comercial.jpg",
-        width: 1024,
-        height: 992,
+        url: "https://raw.githubusercontent.com/fii-plataform/Fenzon-imovel/main/1001505255.jpg",
+        width: 1274,
+        height: 1235,
         alt: "Fachada do Prédio Comercial e Residencial em Boqueirão",
       },
     ],

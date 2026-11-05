@@ -102,15 +102,16 @@ export const PROPERTY_DATA = {
     },
   ],
 
-  // Lista de imagens do imóvel
-  // As imagens locais estão salvas em /public/images/
-  // Você também pode substituir pelas URLs públicas do GitHub quando quiser!
+  heroImage: "https://raw.githubusercontent.com/fii-plataform/Fenzon-imovel/main/1001505255.jpg",
+  aboutImage: "https://raw.githubusercontent.com/fii-plataform/Fenzon-imovel/main/1001505253.jpg",
+
+  // Lista de imagens do imóvel carregadas diretamente do repositório público do GitHub
   gallery: [
     {
       id: "foto-1",
       title: "Fachada Comercial Frontal",
       subtitle: "Ampla frente com lojas térreas ativas e dois andares superiores",
-      src: "/images/predio-fachada-comercial.jpg",
+      src: "https://raw.githubusercontent.com/fii-plataform/Fenzon-imovel/main/1001505255.jpg",
       alt: "Fachada comercial do prédio de 3 pavimentos na Rua Félix Araújo, Centro de Boqueirão",
       aspectRatio: "landscape",
       featured: true,
@@ -120,7 +121,7 @@ export const PROPERTY_DATA = {
       id: "foto-2",
       title: "Visão Angular & Altura Total",
       subtitle: "Destaque para a esquina estratégica, sacada e os 3 pavimentos completos",
-      src: "/images/predio-fachada-esquina.jpg",
+      src: "https://raw.githubusercontent.com/fii-plataform/Fenzon-imovel/main/1001505253.jpg",
       alt: "Vista vertical da esquina e dos 3 pavimentos do edifício em Boqueirão PB",
       aspectRatio: "portrait",
       featured: false,
@@ -130,7 +131,7 @@ export const PROPERTY_DATA = {
       id: "foto-3",
       title: "Térreo de Grande Fluxo",
       subtitle: "Ponto comercial consolidado com espaço para lojas, oficinas e serviços",
-      src: "/images/predio-fachada-comercial.jpg",
+      src: "https://raw.githubusercontent.com/fii-plataform/Fenzon-imovel/main/1001505255.jpg",
       alt: "Ponto comercial de alta movimentação no térreo",
       aspectRatio: "landscape",
       featured: false,
@@ -140,7 +141,7 @@ export const PROPERTY_DATA = {
       id: "foto-4",
       title: "Andares Superiores Multifuncionais",
       subtitle: "Ideais para apartamentos residenciais, consultórios médicos ou salas empresariais",
-      src: "/images/predio-fachada-esquina.jpg",
+      src: "https://raw.githubusercontent.com/fii-plataform/Fenzon-imovel/main/1001505253.jpg",
       alt: "Andares superiores do prédio comercial e residencial",
       aspectRatio: "portrait",
       featured: false,

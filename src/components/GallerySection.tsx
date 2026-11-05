@@ -79,7 +79,7 @@ export default function GallerySection() {
             className="group relative md:col-span-7 rounded-2xl overflow-hidden bg-slate-900 border border-slate-800/80 hover:border-emerald-500/50 cursor-pointer shadow-xl transition-all duration-300 hover:-translate-y-1"
           >
             <Image
-              src="/images/predio-fachada-comercial.jpg"
+              src={PROPERTY_DATA.gallery[0].src}
               alt="Fachada frontal comercial do edifício em Boqueirão"
               fill
               sizes="(max-width: 768px) 100vw, 60vw"
@@ -94,7 +94,7 @@ export default function GallerySection() {
                 Destaque Principal
               </span>
               <span className="px-2.5 py-1 rounded-lg text-xs font-medium bg-slate-950/70 text-slate-300 border border-slate-700 backdrop-blur-md">
-                1024 × 992
+                1274 × 1235
               </span>
             </div>
 
@@ -121,7 +121,7 @@ export default function GallerySection() {
             className="group relative md:col-span-5 md:row-span-2 rounded-2xl overflow-hidden bg-slate-900 border border-slate-800/80 hover:border-emerald-500/50 cursor-pointer shadow-xl transition-all duration-300 hover:-translate-y-1"
           >
             <Image
-              src="/images/predio-fachada-esquina.jpg"
+              src={PROPERTY_DATA.gallery[1].src}
               alt="Vista da esquina e dos 3 pavimentos completos"
               fill
               sizes="(max-width: 768px) 100vw, 40vw"
@@ -134,7 +134,7 @@ export default function GallerySection() {
                 3 Pavimentos
               </span>
               <span className="px-2.5 py-1 rounded-lg text-xs font-medium bg-slate-950/70 text-slate-300 border border-slate-700 backdrop-blur-md">
-                666 × 1024
+                1012 × 1555
               </span>
             </div>
 
@@ -165,7 +165,7 @@ export default function GallerySection() {
             className="group relative md:col-span-4 rounded-2xl overflow-hidden bg-slate-900 border border-slate-800/80 hover:border-emerald-500/50 cursor-pointer shadow-xl transition-all duration-300 hover:-translate-y-1"
           >
             <Image
-              src="/images/predio-fachada-comercial.jpg"
+              src={PROPERTY_DATA.gallery[2].src}
               alt="Lojas do pavimento térreo com fluxo comercial"
               fill
               sizes="(max-width: 768px) 100vw, 35vw"
@@ -199,7 +199,7 @@ export default function GallerySection() {
             className="group relative md:col-span-3 rounded-2xl overflow-hidden bg-slate-900 border border-slate-800/80 hover:border-emerald-500/50 cursor-pointer shadow-xl transition-all duration-300 hover:-translate-y-1"
           >
             <Image
-              src="/images/predio-fachada-esquina.jpg"
+              src={PROPERTY_DATA.gallery[3].src}
               alt="Andares superiores para apartamentos ou clínicas"
               fill
               sizes="(max-width: 768px) 100vw, 25vw"
